@@ -12,45 +12,53 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Add meta tags for SEO -->
+    <meta
+      name="description"
+      content="Kuach Joke - Professional Web Developer specializing in front-end development, responsive design, and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="web developer, front-end developer, HTML, CSS, JavaScript, portfolio"
+    />
+    <meta name="author" content="Kuach Joke" />
+    <meta property="og:title" content="Kuach Joke - Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Professional Web Developer Portfolio showcasing modern web development skills"
+    />
+    <meta property="og:image" content="Images/Homepage_image.png" />
+    <meta property="og:url" content="https://yourwebsite.com" />
   </head>
 
   <body>
     <header>
-      <img
-        src="Images/Joke.Latjor.png"
-        width="240px"
-        height="110px"
-        alt="This is my official Logo."
-      />
-      <ul class="navmenu">
+      <a href="index.html">
+        <img
+          src="Images/Joke.Latjor.png"
+          width="100px"
+          height="70px"
+          alt="This is my official Logo."
+        />
+      </a>
+
+      <!-- Add burger menu button -->
+      <div class="burger-menu" id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="navmenu" id="navmenu">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
         <li><a href="skills.html">SKILLS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
       </ul>
     </header>
 
-    <!-- This is the contact.html file, which should include a form for users to reach out to you. -->
-    <div class="social-icons">
-      <a
-        href="https://www.instagram.com/still.wizzo/profilecard/?igsh=MXFwZmhseTRrcWtsNg=="
-        target="_blank"
-        ><i class="fa-brands fa-square-instagram"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/kuach-joke-565ab62aa" target="_blank"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a href="https://x.com/stillwizzo" target="_blank"
-        ><i class="fa-brands fa-twitter"></i
-      ></a>
-      <a
-        href="https://www.upwork.com/freelancers/~01db44c82f2549d325?mp_source=share"
-        ><i class="fa-brands fa-upwork"></i
-      ></a>
-    </div>
-    <a href="#" class="scroll-btn"
-      >Scroll Down<i class="fa-solid fa-arrow-turn-down"></i
-    ></a>
     <br />
     <br />
     <section class="contact animated-fade-in">
@@ -79,5 +87,92 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Follow Me</h3>
+          <p class="footer-description">
+            Kindly connect with me on all my<br />
+            social media platforms to stay updated.
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://www.instagram.com/still.wizzo/profilecard/?igsh=MXFwZmhseTRrcWtsNg=="
+              target="_blank"
+            >
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kuach-joke-565ab62aa"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/stillwizzo" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/Kuach-joke" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="#web-design">Web Design</a></li>
+            <li><a href="#video-editing">Video Editing</a></li>
+            <li><a href="#responsive-design">Responsive Design</a></li>
+            <li><a href="#frontend-dev">Frontend Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Nairobi, Kenya - Africa</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span><a href="tel:+254110501411">+254 110 501 411</a></span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:kuachjoke@gmail.com">kuachjoke@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p>&copy; 2025 Joke Latjor. All Rights Reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back to top button -->
+      <div class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
