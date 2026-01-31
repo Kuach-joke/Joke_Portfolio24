@@ -779,9 +779,9 @@ header img {
 }
 
 /* Lazy load images */
-img {
+/* img {
   loading: lazy;
-}
+} */
 
 /* Optimize animations */
 @keyframes fadeInUp {
@@ -1040,9 +1040,9 @@ img {
 }
 
 /* Lazy load images */
-img {
+/* img {
   loading: lazy;
-}
+} */
 
 /* Optimize animations */
 @keyframes fadeInUp {
