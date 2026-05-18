@@ -1,0 +1,29 @@
+{
+  "name": "joke-portfolio",
+  "version": "1.0.0",
+  "description": "Kuach Joke's Professional Web Developer Portfolio",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuach-joke/Joke_Portfolio24.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "vercel",
+    "speed-insights"
+  ],
+  "author": "Kuach Joke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuach-joke/Joke_Portfolio24/issues"
+  },
+  "homepage": "https://github.com/Kuach-joke/Joke_Portfolio24#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
